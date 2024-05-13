@@ -33,3 +33,42 @@ header img {
 	margin: 1em;
 	align-self: flex-start;
 }
+
+main {
+	background-color: rgb(14, 14, 14);
+	color: rgb(233, 233, 233);
+}
+
+.poster {
+	font-family: "Fira Sans";
+	width: 15em;
+	margin-top: 3em;
+	height: 30em;
+	display: flex;
+	flex-direction: column;
+	/* border: 2px dotted lime; */
+}
+.poster img {
+	width: 15em;
+}
+.poster a {
+	background-color: rgb(209, 68, 68);
+	color: rgb(233, 233, 233);
+	padding: 0.5em 1em;
+	border-radius: 0.4em;
+	text-decoration: none;
+}
+.poster p {
+	flex-grow: 1;
+}
+/* font-weight */
+/* font-style */
+/* text-decoration */
+
+.poster-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 1em;
+	flex-wrap: wrap;
+}
