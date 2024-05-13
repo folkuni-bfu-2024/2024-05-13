@@ -7,12 +7,12 @@ Lektion vecka 3, introduktion till programmering: datalogiskt tänkande och pseu
 
 
 Veckoprojekt
-+ projekt - länk kommer
-+ inlämning - senast 8:59 före nästa livetillfälle
++ [projekt](project.md)
++ [inlämning](https://docs.google.com/forms/d/e/1FAIpQLSffRnn5zxFqA6PWxM7UJzZZOMpeJ6KG-VgY5utzPh833kgbmw/viewform?usp=sf_link)
 
 Inspelning
-+ Länk till inspelning av lektionen - kommer
-+ Använd lösenkod: ``
++ [Länk till inspelning av lektionen](https://folkuniversitetet-se.zoom.us/rec/share/COU4z3mYJ1FdDnQcGmBZyzKCo61OxKNIWqlTOSapo_sOh_3UDLfevQ5uX0nfJYu2.0gT6X26DdlI1ZTMD)
++ Använd lösenkod: `SZiJ=0C#`
 
 
 ## Resurser
