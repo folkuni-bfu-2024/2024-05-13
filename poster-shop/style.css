@@ -5,14 +5,15 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	margin: 0;
+	font-family: "Fira Sans";
 }
 main {
 	flex-grow: 1;
 }
 
-body > * {
+/* body > * {
 	border: 1px solid black;
-}
+} */
 
 header {
 	background-color: #3de07e;
@@ -26,7 +27,6 @@ header img {
 .header-title {
 	margin-top: 1em;
 	margin-bottom: 1.5em;
-	font-family: "Fira Sans";
 }
 .nav-icon {
 	width: 1.5em;
@@ -40,7 +40,6 @@ main {
 }
 
 .poster {
-	font-family: "Fira Sans";
 	width: 15em;
 	margin-top: 3em;
 	height: 30em;
@@ -71,4 +70,22 @@ main {
 	justify-content: center;
 	gap: 1em;
 	flex-wrap: wrap;
+}
+
+footer {
+	background-color: rgb(52, 52, 52);
+	color: rgb(233, 233, 233);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-bottom: 5em;
+	padding-top: 2em;
+	/* padding: 2em 0 5em 0; */
+}
+footer address {
+	font-style: normal;
+}
+.navlinks {
+	list-style-type: none;
+	padding: 0;
 }
