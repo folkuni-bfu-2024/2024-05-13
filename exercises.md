@@ -2,7 +2,7 @@
 *Pseudo uttalas: "sev-do".*
 
 ## Instruktioner
-Skriv pseudokod för nedanstående övningar. Följ mallen nedan för att strukturera din pseudokod, på svenska eller engelska. Om du inte förstår alla kommandon, känn dig fri att improvisera. Pseudokod
+Skriv pseudokod för nedanstående övningar. Följ mallen nedan för att strukturera din pseudokod, på svenska eller engelska. Om du inte förstår alla kommandon, känn dig fri att improvisera. Pseudokod:
 
 ```
 START     <- talar om var programmet börjar
@@ -17,16 +17,27 @@ ELSE
 END IF                 <- avsluta if/else
 
 SET "name" (value)     <- spara ett värde under ett namn, så att du kan använda det senare i koden
+INPUT "text"           <- be användaren om ett värde, använd med SET
 
 PRINT "text"           <- visa ett värde för användaren
 CALCULATE              <- räkna ut något
 RANDOM BETWEEN "min" AND "max"  <- slumpa ett tal mellan värdena min och max, detta värde kan du använda med SET
 
 LOOP FROM "nummer" TO "nummer"  <- upprepa något ett visst antal gånger
+END LOOP                        <- avslutar det som ingår i upprepningen
 ```
 ---
+Exempel 1: fråga efter användarens namn
+```
+START
+SET namn (INPUT "Vad heter du?")
+PRINT "Välkommen " + namn
+END
+```
 
-Exempel 1: program som slår tre tärningar och lägger ihop resultatet. Om resultatet är större än 10 får man 10 i bonus.
+---
+
+Exempel 2: program som slår tre tärningar och lägger ihop resultatet. Om resultatet är större än 10 får man 10 i bonus.
 ```
 START
 SET tärning1 (RANDOM BETWEEN 1 AND 6)
@@ -45,7 +56,7 @@ END
 
 ---
 
-Exempel 2: Balder heter en berg- och dalbana på Liseberg. För att få åka den måste man vara minst 130 centimeter lång. Skriv pseudokod som slutar i antingen "du får åka" eller "du får inte åka". Koden kommer alltså att ha två möjliga slut.
+Exempel 3: Balder heter en berg- och dalbana på Liseberg. För att få åka den måste man vara minst 130 centimeter lång. Skriv pseudokod som slutar i antingen "du får åka" eller "du får inte åka". Koden kommer alltså att ha två möjliga slut.
 ```
 START
 FUNCTION "checkHeight"
